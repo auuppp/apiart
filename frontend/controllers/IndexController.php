@@ -1,18 +1,32 @@
 <?php
-/**
- * @Author: Dzer <Email:d20053140@gmail.com Blog:dzer.me>
- * @Date:   2015-11-28 16:28:27
- * @Last Modified by:   Dzer
- * @Last Modified time: 2015-11-28 16:46:06
- */
 
 namespace frontend\controllers;
 
 use yii\web\Controller;
 
+/**
+ * 首页控制器
+ * 
+ * @author dzer
+ * @version 1.0
+ */
 class IndexController extends Controller {
 
-	public function actionIndex($message = null){
-		return $this->render('index', ['message' => $message]);
-	}
+    /**
+     * 显示首页页面
+     * @param  string $message 
+     * @return mixed
+     */
+    public function actionIndex($message = null) {
+        return $this->render('index', ['message' => $message]);
+    }
+    
+    /**
+     * [actionMessage description]
+     * @return [type] [description]
+     */
+    public function actionMessage() {
+    	echo 'ss';
+    }
+
 }
