@@ -1,0 +1,2 @@
+[28-Nov-2015 16:45:24 PRC] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in F:\www\apiart\frontend\controllers\IndexController.php on line 11
+[28-Nov-2015 16:46:08 PRC] PHP Fatal error:  Class 'Html' not found in F:\www\apiart\frontend\views\index\index.php on line 7
